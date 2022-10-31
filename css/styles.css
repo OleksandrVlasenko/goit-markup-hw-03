@@ -72,14 +72,17 @@ header {
 	border-bottom: 1px solid #ececec;
 }
 
-.main-nav {
-	display: flex;
-	justify-content: space-between;
-}
-
-nav {
+.main-nav,
+nav,
+.nav-menu,
+.contacts-header {
 	display: flex;
 	align-items: center;
+}
+
+.contacts-header {
+	margin-left: auto;
+	gap: 50px;
 }
 
 .logo-header,
@@ -127,24 +130,8 @@ nav {
 }
 
 .nav-menu {
-	display: flex;
+	gap: 50px;
 	margin-left: 93px;
-}
-
-.nav-menu > .item {
-	margin-right: 50px;
-}
-
-.nav-menu > .item:last-child {
-	margin-right: 0px;
-}
-
-.contacts-header {
-	display: flex;
-}
-
-.contacts-header > .item:not(:last-child) {
-	margin-right: 50px;
 }
 
 /* Hero */
