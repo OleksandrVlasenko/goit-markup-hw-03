@@ -12,7 +12,6 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
-	background: var(--main-background-color);
 }
 
 section {
@@ -68,6 +67,7 @@ img {
 
 /*  header */
 header {
+	background: var(--main-background-color);
 	border-bottom: 1px solid #ececec;
 }
 
@@ -346,6 +346,8 @@ footer {
 
 .portfolio > .item {
 	width: calc((100% - 2 * 30px) / 3);
+
+	background-color: var(--main-background-color);
 }
 
 .portfolio-card {
